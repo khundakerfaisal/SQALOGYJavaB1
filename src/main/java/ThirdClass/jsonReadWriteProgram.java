@@ -29,7 +29,7 @@ public class jsonReadWriteProgram {
 
 
         JSONArray nameArray= (JSONArray) parser.parse(new FileReader(filePath));
-        if (!nameArray.isEmpty()){
+        if (!nameArray.isEmpty()){ //Json Read
             JSONObject lastNameObject= (JSONObject) nameArray.get(nameArray.size()-1);
             String lastName=lastNameObject.get("userName").toString();
             lastNumberCount = Integer.parseInt(lastName.substring(prefixName.length()));
@@ -44,7 +44,7 @@ public class jsonReadWriteProgram {
         }
 
 
-        FileWriter write=new FileWriter(filePath); //Write
+        FileWriter write=new FileWriter(filePath); //json Write
         write.write(nameArray.toJSONString());
         write.flush();
         write.close();
