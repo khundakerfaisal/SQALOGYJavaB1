@@ -1,3 +1,5 @@
+package FirstClass;
+
 public class typeCasting {
     public static void main(String[] args) {
         int number=10;

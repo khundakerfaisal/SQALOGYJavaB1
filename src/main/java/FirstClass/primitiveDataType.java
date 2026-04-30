@@ -1,3 +1,5 @@
+package FirstClass;
+
 public class primitiveDataType {
     public static void main(String[] args) {
         String name="Razon";

@@ -1,3 +1,5 @@
+package FirstClass;
+
 public class staticVariable {
      static int price=10;
 

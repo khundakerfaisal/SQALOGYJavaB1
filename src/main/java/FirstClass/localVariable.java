@@ -1,3 +1,5 @@
+package FirstClass;
+
 public class localVariable {
     public static void main(String[] args) {
         String name="Emon";

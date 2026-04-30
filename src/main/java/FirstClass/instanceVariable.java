@@ -1,3 +1,5 @@
+package FirstClass;
+
 public class instanceVariable {
     int age=20;
     public static void main(String[] args) {

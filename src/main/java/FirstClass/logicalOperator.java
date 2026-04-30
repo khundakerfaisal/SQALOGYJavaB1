@@ -1,3 +1,5 @@
+package FirstClass;
+
 import java.util.Scanner;
 
 public class logicalOperator {
